@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Diary.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Diary.Api.Controllers.AuthController.Register(Diary.Domain.Dto.User.RegisterUserDto)">
+            <summary>
+            User registration
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Diary.Api.Controllers.ReportController.CreateReport(Diary.Domain.Dto.Report.CreateReportDto)">
+            <summary>
+            Creates a new report.
+            </summary>
+            <param name="reportDto"></param>
+            <remarks>
+            <h3>Create a new report for the given user:</h3>
+            
+                POST
+                {
+                    "name": "Report #1",
+                    "description": "Test report",
+                    "userId": 1
+                }
+            
+            </remarks>
+            <response code="200">If the report is successfully created.</response>
+            <response code="400">If there was an error during creation.</response>
+        </member>
+        <member name="M:Diary.Api.Controllers.ReportController.DeleteReport(System.Int64)">
+            <summary>
+            Deletes a report by its ID.
+            </summary>
+            <param name="id"></param>
+            <remarks>
+            <h3>Remove a report using its unique ID:</h3>
+            
+                DELETE
+                {
+                    "id": 1
+                }
+            
+            </remarks>
+            <response code="200">If the report is successfully deleted.</response>
+            <response code="400">If the deletion fails.</response>
+        </member>
+        <member name="M:Diary.Api.Controllers.ReportController.GetUserReports(System.Int64)">
+             <summary>
+             Retrieves all reports for a specified user.
+             </summary>
+             <param name="userId"></param>
+             <remarks>
+            <h3>Returns a list of reports for a specific user:</h3>
+             
+                 GET
+                 {
+                     "userId": 1
+                 }
+             
+             </remarks>
+             <response code="200">If reports are successfully retrieved.</response>
+             <response code="400">If there's an error retrieving the reports.</response>
+        </member>
+        <member name="M:Diary.Api.Controllers.ReportController.GetReportById(System.Int64)">
+             <summary>
+             Retrieves a report by its ID.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+            <h3>Returns a single report using its unique ID:</h3>
+             
+                 GET
+                 {
+                     "id": 1
+                 }
+             
+             </remarks>
+             <response code="200">If the report is successfully retrieved.</response>
+             <response code="400">If there's an error retrieving the report.</response>
+        </member>
+        <member name="M:Diary.Api.Controllers.ReportController.UpdateReport(Diary.Domain.Dto.Report.UpdateReportDto)">
+             <summary>
+             Updates an existing report.
+             </summary>
+             <param name="dto"></param>
+             <remarks>
+            <h3>Update the details of an existing report:</h3>
+             
+                 PUT
+                 {
+                     "id": 1,
+                     "name": "report #1",
+                     "description": "report desc"
+                 }
+             
+             </remarks>
+             <response code="200">If the report is successfully updated.</response>
+             <response code="400">If there's an error updating the report.</response>
+        </member>
+    </members>
+</doc>

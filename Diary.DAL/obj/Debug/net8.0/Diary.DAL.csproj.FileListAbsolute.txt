@@ -1,0 +1,15 @@
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\bin\Debug\net8.0\Diary.DAL.deps.json
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\bin\Debug\net8.0\Diary.DAL.dll
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\bin\Debug\net8.0\Diary.DAL.pdb
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\bin\Debug\net8.0\Diary.Domain.dll
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\bin\Debug\net8.0\Diary.Domain.pdb
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.csproj.AssemblyReference.cache
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.AssemblyInfoInputs.cache
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.AssemblyInfo.cs
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.csproj.CoreCompileInputs.cache
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.csproj.Up2Date
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.dll
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\refint\Diary.DAL.dll
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\Diary.DAL.pdb
+C:\Users\madoh\RiderProjects\Diary\Diary.DAL\obj\Debug\net8.0\ref\Diary.DAL.dll
